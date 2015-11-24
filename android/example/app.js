@@ -1,5 +1,3 @@
-var nf = require('com.falkolab.notificationfactory');
-
 var win = Ti.UI.createWindow({layout:'vertical'});
 
 var btn1 = Ti.UI.createButton({
@@ -7,14 +5,14 @@ var btn1 = Ti.UI.createButton({
 });
 
 btn1.addEventListener('click', function(e) {
-	var style = nf.createBigTextStyle({
+	var style = Ti.Android.createBigTextStyle({
     	bigText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     	bigContentTitle: "Title for big text",
     	summaryText: "Summary for big text"
    });
    
 	// Create big text style the notification
-	var notification = nf.createNotification({
+	var notification = Ti.Android.createNotification({
 	    contentTitle: 'Something Happened',
 	    contentText : 'Click to return to the application.',
 	    style: style,
@@ -35,13 +33,13 @@ var btn2 = Ti.UI.createButton({
 
 btn2.addEventListener('click', function(e) {
 
-	var style = nf.createBigTextStyle();
+	var style = Ti.Android.createBigTextStyle();
 	style.setBigText("Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.");
 	style.setBigContentTitle('big title');
 	style.setSummaryText('big summmary');
 	   
 	// Create big text style the notification
-	var notification = nf.createNotification({
+	var notification = Ti.Android.createNotification({
 	    contentTitle: 'Something Happened',
 	    contentText : 'Click to return to the application.',
 	    time: Date.now()
@@ -68,10 +66,10 @@ btn3.addEventListener('click', function(e) {
 	
 		
 	// Create big picture style the notification
-	var notification = nf.createNotification({
+	var notification = Ti.Android.createNotification({
 	    contentTitle: 'Something Happened',
 	    contentText : 'Click to return to the application.',
-	    style: nf.createBigPictureStyle({
+	    style: Ti.Android.createBigPictureStyle({
 	    	//bigPicture: "/images/androidifysteve.png",	    	
 	    	//bigPicture: 'http://www.notetab.com/images/More-free-time-thanks-to-NoteTab.jpg',
 	    	bigPicture: Ti.App.Android.R.drawable.androidifysteve,

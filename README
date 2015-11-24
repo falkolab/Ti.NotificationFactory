@@ -1,5 +1,5 @@
-# Android module to support notification style for Titanium SDK
+# Android module that add support for style in Ti.AndroidNotification for Titanium SDK.
 
-For exaples look at `android/example/app.js`
+For examples look at the (android/example/app.js) and [documentation](android/documentation/index.md)
 
 

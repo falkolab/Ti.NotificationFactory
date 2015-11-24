@@ -1,3 +1,3 @@
-titanium.platform=/Users/falko/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/android
-android.platform=/Users/falko/Library/android-sdk-macosx/platforms/android-23
-google.apis=/Users/falko/Library/android-sdk-macosx/add-ons/addon-google_apis-google-23
+titanium.platform=/Users/your name/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/android
+android.platform=/Users/your name/Library/android-sdk-macosx/platforms/android-23
+google.apis=/Users/your name/Library/android-sdk-macosx/add-ons/addon-google_apis-google-23
