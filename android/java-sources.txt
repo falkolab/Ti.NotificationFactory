@@ -1,0 +1,7 @@
+"/Users/falko/Documents/work/titanium/notificationfactory/android/build/generated/java/com/falkolab/notificationfactory/NotificationfactoryBootstrap.java"
+"/Users/falko/Documents/work/titanium/notificationfactory/android/src/com/falkolab/notificationfactory/BigPictureStyleProxy.java"
+"/Users/falko/Documents/work/titanium/notificationfactory/android/src/com/falkolab/notificationfactory/BigTextStyleProxy.java"
+"/Users/falko/Documents/work/titanium/notificationfactory/android/src/com/falkolab/notificationfactory/ExampleProxy.java"
+"/Users/falko/Documents/work/titanium/notificationfactory/android/src/com/falkolab/notificationfactory/NotificationProxy.java"
+"/Users/falko/Documents/work/titanium/notificationfactory/android/src/com/falkolab/notificationfactory/NotificationfactoryModule.java"
+"/Users/falko/Documents/work/titanium/notificationfactory/android/src/com/falkolab/notificationfactory/StyleProxy.java"
